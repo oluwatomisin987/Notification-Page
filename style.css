@@ -1,0 +1,147 @@
+body{
+    margin: 0px;
+  padding: 0px;
+  display: block;
+  box-sizing: border-box;
+  background-color: hsl(211, 68%, 94%);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  max-width: 100%;
+}
+
+.s-body{
+  max-width: 55%;
+  background: hsl(0, 0%, 100%);
+  margin: auto;
+border-radius: 1rem;
+padding-left: 1.5rem;
+padding-right: 1.5rem;
+padding-bottom: 1.5rem;
+}
+
+.light-blue-bg{
+   background-color: hsl(211, 68%, 94%);
+}
+
+.white-bg{
+    background: hsl(0, 0%, 100%);
+}
+
+.top-nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-nav1{
+font-weight: 800;
+  color: hsl(224, 21%, 14%);
+  cursor: pointer;
+}
+
+.top-nav2{
+font-weight: 500;
+cursor: pointer;
+}
+
+
+.number{
+  background: hsl(219,85%, 26%);
+  border-radius: 0.3rem;
+  color: #fff;
+  padding-top: 0.1rem;
+  padding-right: 0.5rem;
+  padding-bottom: 0.1rem;
+  padding-left: 0.5rem;
+  cursor: default;
+}
+
+
+
+/* .img-text-div{
+display: flex;
+width: 100%;
+background: blueviolet; 
+ border: 3px solid black; 
+}
+
+.img-div{
+border: 2px solid red;
+
+}  */
+
+.fa-solid{
+  /* border: 4px solid blue; */
+color: red;
+/* display: none; */
+/* padding-left: 30px; */
+
+}
+
+.img-text-div2{
+  /* border: 4px solid red; */
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+
+  margin-top: 5px;
+  border-radius: 0.3rem;
+  /* margin-bottom: 5px; */
+}
+
+
+.accordion{
+  border: 3px solid yellowgreen;
+  display: flex;
+  border: none;
+    /* background-color: hsl(211, 68%, 94%); */
+  /* margin-bottom: 50px; */
+}
+
+.accordion-2{
+  border: 3px solid blue;
+  display: flex;
+  border: none;
+    /* background-color: hsl(211, 68%, 94%); */
+}
+
+
+.panel {
+   background: hsl(0, 0%, 100%);
+  font-size: 17px;
+  border: 1px dotted blue;
+  display: none;
+  /* margin-top: 3rem; */
+  overflow: hidden;
+}
+
+
+
+.img-size{
+  /* border: 4px solid red; */
+  width: 50px;
+  height: 50px;
+  align-self: center;  
+}
+
+.p-div{
+  /* border: 3px solid black; */
+margin-left: 1rem;
+}
+
+.pp{
+  font-size: 1em;
+  font-weight: 500;
+  /* padding: 0px; */
+  /* border: 3px solid yellow; */
+}
+
+.name{
+  color: hsl(224, 21%, 14%);
+  /* font-size: 50px; */
+  font-weight: 800;
+}
+
+.p-t{
+  /* border: 3px solid  blue; */
+  margin-top: -12px;
+}
