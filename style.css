@@ -19,7 +19,7 @@ padding-right: 1.5rem;
 padding-bottom: 1.5rem;
 }
 
-.light-blue-bg{
+.lightBlueBg{
    background-color: hsl(211, 68%, 94%);
 }
 
@@ -77,16 +77,21 @@ color: red;
 
 }
 
-.img-text-div2{
-  /* border: 4px solid red; */
+
+
+
+.mainDiv{
   display: flex;
   flex-direction: column;
   cursor: pointer;
-
   margin-top: 5px;
   border-radius: 0.3rem;
-  /* margin-bottom: 5px; */
+  
 }
+
+
+
+
 
 
 .accordion{
@@ -97,12 +102,9 @@ color: red;
   /* margin-bottom: 50px; */
 }
 
-.accordion-2{
-  border: 3px solid blue;
-  display: flex;
-  border: none;
-    /* background-color: hsl(211, 68%, 94%); */
-}
+
+
+
 
 
 .panel {

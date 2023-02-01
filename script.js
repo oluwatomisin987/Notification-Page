@@ -1,37 +1,65 @@
-const lightBlue = document.querySelector(".light-blue-bg");
-const whiteBg = document.querySelector('.white-bg')
-const bigDiv = document.querySelector ('.img-text-div2');
+"use strict";
 
-const acc = document.getElementsByClassName("accordion");
-var i;
+const lightBlueBg = document.getElementsByClassName("lightBlueBg");
 
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function () {
+const whiteBg = document.getElementsByClassName("white-bg");
 
-bigDiv.classList.remove("light-blue-bg");
+const bigDiv = document.getElementsByClassName("img-text-div2");
 
-bigDiv.classList.add('white-bg');
-console.log('good');
+const mainDiv = document.querySelectorAll(".mainDiv");
 
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-    } else {
-      panel.style.display = "block";
-    }
-  });
-}
+const accordion = document.querySelector(".accordion");
+
+const number = document.querySelector ('.number')
 
 
 
 
 
-const panel = document.querySelector(".panel");
-// const lightBlue = document.querySelector ('.light-blue-bg');
 
-// acc.addEventListener ('click', function(){
 
-// console.log('good')
 
-// })
+mainDiv.forEach((ctn) =>
+ctn.addEventListener('click', function(){
+  console.log('load');
+  ctn.classList.remove('lightBlueBg')
+
+
+  data = Number(document.querySelector(".number").textContent);
+  data--;
+
+  document.querySelector(".number").textContent = data;
+
+
+
+})
+)
+
+
+
+
+
+
+
+
+
+
+// var i;
+
+// for (i = 0; i < acc.length; i++) {
+//   acc[i].addEventListener("click", function () {
+
+// bigDiv.classList.remove("light-blue-bg");
+
+// bigDiv.classList.add('white-bg');
+//  console.log('good');
+
+//     this.classList.toggle("active");
+//     var panel = this.nextElementSibling;
+//     if (panel.style.display === "block") {
+//       panel.style.display = "none";
+//     } else {
+//       panel.style.display = "block";
+//     }
+//   });
+// }
