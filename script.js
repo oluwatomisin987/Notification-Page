@@ -29,8 +29,6 @@ const oP = document.querySelectorAll('.oP');
 
 
 
-
-
 markAllAsRead.addEventListener('click', function(){
 
 mainDiv.forEach((ctn) =>{
@@ -50,12 +48,7 @@ dot.forEach((dot) => {
 
  document.querySelector(".number").textContent = 0;
 
-
-
-
-
 })
-
 
 
 
@@ -73,9 +66,6 @@ number.push(curr);
 })
  let total = number.length;
  document.querySelector(".number").textContent = total;
-
-
-
 
 
 
@@ -100,19 +90,20 @@ if (ctn.classList.contains("lightBlueBg")) {
 }
 
 
-
-oP.forEach((oP) => {
-  const close = oP.closest(".mainDiv");
-  if (close) {
-    oP.classList.remove("hide");
-  }
-});
-
-
 })
 )
 
 
+
+// drop down button
+
+oP.forEach((oP) => {
+  const close = oP.closest(".mainDiv");
+  if (close)
+    close.addEventListener("click", function () {
+      oP.classList.remove("hide");
+    });
+});
 
 
 
@@ -128,26 +119,3 @@ dot.forEach((dot) => {
 });
 
 
-
-
-
-
-// var i;
-
-// for (i = 0; i < acc.length; i++) {
-//   acc[i].addEventListener("click", function () {
-
-// bigDiv.classList.remove("light-blue-bg");
-
-// bigDiv.classList.add('white-bg');
-//  console.log('good');
-
-//     this.classList.toggle("active");
-//     var panel = this.nextElementSibling;
-//     if (panel.style.display === "block") {
-//       panel.style.display = "none";
-//     } else {
-//       panel.style.display = "block";
-//     }
-//   });
-// }
